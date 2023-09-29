@@ -1,0 +1,1202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header img for desktop */
+.header-img {
+    height: 100%;
+    width: 100%;
+}
+
+section.content-container {
+    margin: 40px 0px 0px 96px;
+}
+
+.inner-content {
+    display: flex;
+}
+
+h1.content-heading {
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Montserrat';
+
+}
+
+/* Lists of features */
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.features {
+    font-family: 'Oxygen';
+    font-size: 20px;
+    font-weight: 400;
+    color: #313131;
+
+}
+
+/* title and its contents */
+img.title {
+    width: 440px;
+    height: 68px;
+}
+
+.title-details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 28px;
+
+}
+
+.inner-content {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* join facebook button */
+
+
+button.joinBtn {
+    height: 50px;
+    width: 365px;
+    font-size: 16px;
+    background: #1877F2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Oxygen';
+
+
+}
+
+/* newsletter slogan and heading */
+
+p.signup-slogn {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat';
+
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* email form box */
+
+.email-box {
+    width: 1310px;
+    height: 135px;
+    background: #707070;
+    background-image: url(./Images/Newsletter.svg);
+
+}
+
+.inbox-contents {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+p.info {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+
+}
+
+input#email {
+    height: 50px;
+    width: 325px;
+    border: 1px solid #ACACAC;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oxygen';
+}
+
+input[type="submit"] {
+    background: #E04E00;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* testimonials and feedback sections */
+.testimonials {
+    display: flex;
+    padding: 40px;
+    gap: 70px;
+
+}
+
+.signUp-form {
+    display: flex;
+    gap: 15px;
+}
+
+img.mobile {
+    max-width: 1440px;
+    /* width: 100%; */
+}
+
+.knife {
+    width: 290px;
+
+}
+
+.review-one {
+    display: flex;
+    gap: 54px;
+}
+
+.review-two {
+    display: flex;
+    gap: 54px;
+}
+
+p.review-content {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oxygen';
+    color: #101820;
+    padding-top: 40px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.user-img {
+    height: 58px;
+    width: 58px;
+}
+
+.feedbacks {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px 20px; */
+}
+
+.container-details {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+footer {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 18px;
+    color: #101820;
+    font-family: 'Oxygen';
+    font-weight: bold;
+}
+
+img.human {
+    width: 100%;
+}
+
+/* foooter section */
+
+.feedbacks {
+    background-image: url(./Images/Man-background.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 380px;
+    padding: 30px 30px 30px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+p.user-about {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    width: 730px;
+}
+
+p.user-name {
+    color: #FAC9AF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Oxygen';
+    padding-top: 20px;
+
+}
+
+.footer {
+    width: 100%;
+}
+
+
+/* chaning header and footer img according to the breakpoints */
+
+.footer-tablet {
+    display: none;
+}
+
+.header-tablet {
+    display: none;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.laptop-mobile {
+    display: none;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.header-laptop {
+    display: none;
+}
+
+.footer-laptop {
+    display: none;
+}
+
+
+/* Media query for tablet view */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer-laptop {
+        display: none;
+    }
+
+    ;
+
+    .header-laptop {
+        display: none;
+    }
+
+
+    .header {
+        width: 100%;
+    }
+
+    .header-img {
+        width: 768px;
+    }
+
+    img.title {
+        height: 60px;
+    }
+
+    .email-box {
+        width: 726px;
+        height: 135px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+    }
+
+    p.info {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+
+    .inbox-contents {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        flex-direction: column;
+    }
+
+    p.user-about {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        width: 348px;
+    }
+
+    .container-details {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 26px;
+
+    }
+
+    .model-demo {
+        margin-top: 14px;
+    }
+
+    .review-one {
+        display: flex;
+        gap: 10px;
+    }
+
+    .review-two {
+        display: flex;
+        gap: 10px;
+    }
+
+    .inbox-contents {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    img.man-img {
+        height: 200px;
+        width: 200px;
+    }
+
+    h1.content-heading {
+        font-weight: 800;
+        font-size: 23px;
+        font-family: 'Montserrat';
+    }
+
+    .inner-content {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile {
+        width: 698px;
+        margin: 0px;
+    }
+
+    section.content-container {
+        margin: 40px 0px 30px 0px;
+    }
+
+    .email-box {
+        width: 734px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+        height: 255px;
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 250px;
+        padding: 30px 30px 30px 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .title-details {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        margin-right: 0px;
+
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-tablet {
+        display: block;
+    }
+
+
+    .header-img {
+        display: none;
+    }
+
+    .header-tablet {
+        display: block;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+}
+
+/* Media query for mobile screen for 320px */
+@media only screen and (max-width: 600px) {
+    .footer-laptop {
+        display: none;
+    }
+
+    .header-laptop {
+        display: none;
+    }
+
+    .header-img {
+        display: none;
+
+    }
+
+    .laptop-mobile {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+        max-width: 320px;
+    }
+
+    .footer-tablet {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        width: 320px;
+
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .header {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    img.title {
+        width: 276px;
+        height: 60px;
+    }
+
+    section.content-container {
+        /* margin: 40px 0px 0px 96px; */
+        margin: 0px;
+    }
+
+    h1.content-heading {
+        font-weight: 800;
+        font-size: 21px;
+        font-family: 'Montserrat';
+        width: 300px;
+    }
+
+    img.checkbox {
+        height: 20px;
+        width: 20px;
+    }
+
+    .features {
+        font-family: 'Oxygen';
+        font-size: 16px;
+        font-weight: 400;
+        color: #313131;
+    }
+
+    .title-details {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* margin-right: 28px; */
+    }
+
+    .inner-content {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    button.joinBtn {
+        height: 50px;
+        width: 282px;
+        font-size: 14px;
+        background: #1877F2;
+        border: none;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-family: 'Oxygen';
+    }
+
+    img.FB {
+        height: 29px;
+        width: 29px;
+    }
+
+    .inner-content {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.mobile {
+        max-width: 288px;
+        /* width: 100%; */
+    }
+
+    p.signup-slogn {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 800;
+        font-family: 'Montserrat';
+    }
+
+    img.curved-line {
+        width: 122px;
+    }
+
+    .model-demo {
+        margin-top: 20px;
+    }
+
+
+    .email-box {
+        width: 280px;
+        height: 285px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+    }
+
+    p.info {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+
+    .inbox-contents {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    input#email {
+        height: 50px;
+        width: 251px;
+        border: 1px solid #ACACAC;
+        padding: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+    }
+
+    .signUp-form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input[type="submit"] {
+        background: #E04E00;
+        height: 50px;
+        width: 251px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .testimonials {
+        display: flex;
+        padding: 40px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .knife {
+        width: 200px;
+        height: 240px;
+    }
+
+    .review-one {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .review-two {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    p.review-content {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+        color: #101820;
+        padding: 0px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: #101820;
+        font-family: 'Oxygen';
+        font-weight: bold;
+    }
+
+    p.user-about {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        width: 260px;
+
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 378px;
+        /* padding: 30px 30px 30px 90px; */
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    img.man-img {
+        height: 170px;
+        width: 170px;
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 375px;
+        /* padding: 30px 30px 30px 90px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    p.user-name {
+        color: #FAC9AF;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+        /* padding-top: 20px; */
+    }
+
+
+}
+
+/* media query for mobile screen 375px */
+
+@media only screen and (max-width: 600px) {
+    .footer-laptop {
+        display: none;
+    }
+
+    .header-laptop {
+        display: none;
+    }
+
+    .header-img {
+        display: none;
+
+    }
+
+    .header-mobile {
+        display: block;
+        max-width: 375px;
+    }
+
+    .footer-tablet {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        width: 375px;
+    }
+
+    .laptop-mobile {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .header {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    img.title {
+        width: 276px;
+        height: 60px;
+    }
+
+    section.content-container {
+        /* margin: 40px 0px 0px 96px; */
+        margin: 0px;
+    }
+
+    h1.content-heading {
+        font-weight: 800;
+        font-size: 21px;
+        font-family: 'Montserrat';
+        width: 300px;
+    }
+
+    img.checkbox {
+        height: 20px;
+        width: 20px;
+    }
+
+    .features {
+        font-family: 'Oxygen';
+        font-size: 16px;
+        font-weight: 400;
+        color: #313131;
+    }
+
+    .title-details {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* margin-right: 28px; */
+    }
+
+    .inner-content {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    button.joinBtn {
+        height: 50px;
+        width: 282px;
+        font-size: 14px;
+        background: #1877F2;
+        border: none;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-family: 'Oxygen';
+    }
+
+    img.FB {
+        height: 29px;
+        width: 29px;
+    }
+
+    .inner-content {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.mobile {
+        max-width: 288px;
+        /* width: 100%; */
+    }
+
+    p.signup-slogn {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 800;
+        font-family: 'Montserrat';
+    }
+
+    img.curved-line {
+        width: 122px;
+    }
+
+    .model-demo {
+        margin-top: 20px;
+    }
+
+    .email-box {
+        width: 334px;
+        height: 325px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+    }
+
+    p.info {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+
+    .inbox-contents {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    input#email {
+        height: 50px;
+        width: 251px;
+        border: 1px solid #ACACAC;
+        padding: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+    }
+
+    .signUp-form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input[type="submit"] {
+        background: #E04E00;
+        height: 50px;
+        width: 251px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .testimonials {
+        display: flex;
+        padding: 40px;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .knife {
+        width: 200px;
+        height: 240px;
+    }
+
+    .review-one {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .review-two {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    p.review-content {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+        color: #101820;
+        padding: 0px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: #101820;
+        font-family: 'Oxygen';
+        font-weight: bold;
+    }
+
+    p.user-about {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        width: 260px;
+
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 378px;
+        /* padding: 30px 30px 30px 90px; */
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    img.man-img {
+        height: 170px;
+        width: 170px;
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 375px;
+        /* padding: 30px 30px 30px 90px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    p.user-name {
+        color: #FAC9AF;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+        /* padding-top: 20px; */
+    }
+
+
+}
+
+
+/* Media query for small laptop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* *{
+        overflow-x: hidden;
+    } */
+
+    .footer-laptop {
+        display: block;
+    }
+
+    .footer-tablet {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-tablet {
+        display: none;
+    }
+
+    .header-img {
+        display: none;
+
+    }
+
+    .header-laptop {
+        display: block;
+    }
+
+
+    img.title {
+        width: 400px;
+        height: 60px;
+    }
+
+    img.mobile {
+        display: none;
+    }
+
+    .laptop-mobile {
+        display: block;
+    }
+
+    section.content-container {
+        margin: 40px 0px 0px 0px;
+    }
+
+    .title-details {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin-right: 28px;
+    }
+
+    .inner-content {
+        /* max-width: 1440px; */
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    .email-box {
+        width: 974px;
+        height: 135px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+    }
+
+    .email-box {
+
+        height: 135px;
+        background: #707070;
+        background-image: url(./Images/Newsletter.svg);
+    }
+
+    .inbox-contents {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 32px;
+    }
+
+    .knife {
+        width: 215px;
+        height: 256px;
+    }
+
+    .testimonials {
+        display: flex;
+        padding: 0px;
+        gap: 70px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    p.review-content {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Oxygen';
+        color: #101820;
+        padding-top: 18px;
+    }
+
+    .user-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    h4 {
+        font-size: 13px;
+        color: #101820;
+        font-family: 'Oxygen';
+        font-weight: bold;
+    }
+
+    .review-one {
+        display: flex;
+        gap: 20px;
+    }
+
+    .review-two {
+        display: flex;
+        gap: 20px;
+    }
+
+    .container-details {
+        /* max-width: 1440px; */
+        width: 100%;
+        margin: 0 auto;
+        padding: 60px 20px;
+    }
+
+    img.man-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .img-content {
+        width: 634px;
+        height: 120px;
+    }
+
+    .feedbacks {
+        background-image: url(./Images/Man-background.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 360px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    p.user-about {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        width: 634px;
+    }
+
+
+}
