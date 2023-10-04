@@ -162,7 +162,7 @@ input#email {
     font-family: 'Oxygen';
 }
 
-.signUp-btn{
+.signUp-btn {
     background: #E04E00;
     height: 50px;
     width: 100px;
@@ -173,7 +173,8 @@ input#email {
     text-align: center;
     cursor: pointer;
 }
-.signUp-btn:hover{
+
+.signUp-btn:hover {
     background-color: #fa5700;
 }
 
@@ -229,6 +230,13 @@ p.review-content {
 .user-img {
     height: 58px;
     width: 58px;
+}
+
+.content-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px 20px;  */
 }
 
 .feedbacks {
@@ -412,6 +420,8 @@ p.user-name {
 
     .model-demo {
         margin-top: 14px;
+        /* width: 100%; */
+        max-width: 1024px;
     }
 
     .review-one {
@@ -437,8 +447,9 @@ p.user-name {
 
     h1.content-heading {
         font-weight: 800;
-        font-size: 23px;
+        font-size: 28px;
         font-family: 'Montserrat';
+        line-height: 32px;
     }
 
     .inner-content {
@@ -579,7 +590,7 @@ p.user-name {
 
     h1.content-heading {
         font-weight: 800;
-        font-size: 21px;
+        font-size: 24px;
         font-family: 'Montserrat';
         width: 300px;
     }
@@ -643,10 +654,10 @@ p.user-name {
         flex-direction: column;
     }
 
-    img.mobile {
+    /* img.mobile {
         max-width: 288px;
-        /* width: 100%; */
-    }
+        
+    } */
 
     p.signup-slogn {
         font-size: 16px;
@@ -860,7 +871,7 @@ p.user-name {
 
     h1.content-heading {
         font-weight: 800;
-        font-size: 21px;
+        font-size: 24px;
         font-family: 'Montserrat';
         width: 300px;
     }
@@ -1086,7 +1097,7 @@ p.user-name {
 
 
 /* Media query for small laptop */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1365px) {
 
     /* *{
         overflow-x: hidden;
@@ -1094,6 +1105,7 @@ p.user-name {
 
     .footer-laptop {
         display: block;
+        width: 100%;
     }
 
     .footer-tablet {
@@ -1119,8 +1131,9 @@ p.user-name {
 
     .header-laptop {
         display: block;
+        width: 100%;
+        max-width: 1440px;
     }
-
 
     img.title {
         width: 400px;
@@ -1133,10 +1146,32 @@ p.user-name {
 
     .laptop-mobile {
         display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    p.signup-slogn {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        font-family: 'Montserrat';
+    }
+
+    p.info {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Montserrat';
     }
 
     section.content-container {
         margin: 40px 0px 0px 0px;
+    }
+
+    h1.content-heading {
+        font-weight: 800;
+        font-size: 32px;
+        font-family: 'Montserrat';
+        width: 540px;
     }
 
     .title-details {
@@ -1154,10 +1189,10 @@ p.user-name {
     }
 
     .email-box {
-        width: 974px;
-        height: 135px;
+        height: 134px;
         background: #707070;
         background-image: url(./Images/Newsletter.svg);
+        width: 100%;
     }
 
     .email-box {
@@ -1184,6 +1219,7 @@ p.user-name {
         padding: 0px;
         gap: 70px;
         margin: 20px 0px 0px 0px;
+        justify-content: center;
     }
 
     p.review-content {
